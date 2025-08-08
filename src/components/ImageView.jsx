@@ -49,7 +49,7 @@ function ImageView({ folderName, images, onBack }) {
             <div className="image-info">
               <p className="price-tag">{img.price}</p>
               <img
-                src={`/${img.name}`}
+                src={`/neipokestore-set/${img.name}`}
                 alt={img.name}
                 onClick={() => handleClick(idx)}
                 style={{ cursor: 'pointer' }}
@@ -116,7 +116,7 @@ function ImageView({ folderName, images, onBack }) {
           {/* Imagen con animación y perspectiva */}
           <div style={{ perspective: '1000px' }}>
             <img
-              src={`/${images[selectedIndex].name}`}
+              src={`/neipokestore-set/${images[selectedIndex].name}`}
 
               alt={images[selectedIndex].name}
               className="modal-image-animated"

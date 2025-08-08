@@ -81,7 +81,7 @@ const togglePlay = () => {
     <div className="page">
       <audio
         ref={audioRef}
-        src="/pokemon-opening.mp3"
+        src="/neipokestore-set/pokemon-opening.mp3"
         loop
       />
       <div className="app-container">
